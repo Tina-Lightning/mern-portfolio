@@ -13,7 +13,7 @@ router.route("/add").post((req, res) => {
     const username = req.body.username;
     const image = req.body.image;
     const title = req.body.title;
-    const type = req.body.type;
+    const typeofwork = req.body.typeofwork;
     const weblink = req.body.weblink;
     const githublink = req.body.githublink;
     const overview = req.body.overview;
@@ -24,7 +24,7 @@ router.route("/add").post((req, res) => {
         username,
         image,
         title,
-        type,
+        typeofwork,
         weblink,
         githublink,
         overview,
@@ -55,7 +55,7 @@ router.route("/update/:id").post((req, res) => {
             project.username = req.body.username;
             project.image = req.body.image;
             project.title = req.body.title;
-            project.type = req.body.type;
+            project.typeofwork = req.body.typeofwork;
             project.weblink = req.body.weblink;
             project.githublink = req.body.githublink;
             project.overview = req.body.overview;

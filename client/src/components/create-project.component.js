@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 export default class CreateProject extends Component {
 
@@ -26,15 +27,32 @@ export default class CreateProject extends Component {
             overview: "",
             techused: "",
             createddate: "",
-            users: []
+            users: [],
+            typesofWork: []
         }
     }
 
     componentDidMount() {
-        this.setState({
-            users: ["name1" , "name2", "name3"],
-            username: "test name"
-        })
+
+        axios.get("http://localhost:5000/projects/")
+            .then(res => {
+                if (res.data.length > 0) {
+                    this.setState({
+                        typesofWork: res.data.map(project => project.typeofwork),
+                        typeofwork: res.data[0].typeofwork
+                    })
+                }
+            })
+
+        axios.get("http://localhost:5000/users/")
+            .then(res => {
+                if (res.data.length > 0) {
+                    this.setState({
+                        users: res.data.map(user => user.username),
+                        username: res.data[0].username
+                    })
+                }
+            })
     }
 
     onChangeUsername(e) {
@@ -107,7 +125,20 @@ export default class CreateProject extends Component {
         }
         console.log(project);
 
-        window.location = "/";
+        axios.post("http://localhost:5000/projects/add", project)
+            .then(res => console.log(res.data));
+
+        this.setState({
+            username: "",
+            image: "",
+            title: "",
+            typeofwork: "",
+            weblink: "",
+            githublink: "",
+            overview: "",
+            techused: "",
+            createddate: ""
+        })
     }
 
 
@@ -120,12 +151,20 @@ export default class CreateProject extends Component {
 
                     <div className="form-group">
                         <label>Username: </label>
-                        <input type="text"
+                        <select ref="userInput"
                             required
                             className="form-control"
                             value={this.state.username}
-                            onChange={this.onChangeUsername}
-                        />
+                            onChange={this.onChangeUsername}>
+                            {
+                                this.state.users.map(function (user) {
+                                    return <option
+                                        key={user}
+                                        value={user}>{user}
+                                    </option>;
+                                })
+                            }
+                        </select>
                     </div>
 
                     <div className="form-group">
@@ -157,10 +196,10 @@ export default class CreateProject extends Component {
                             value={this.state.typeofwork}
                             onChange={this.onChangeTypeofWork}>
                             {
-                                this.state.users.map(function (user) {
+                                this.state.typesofWork.map(function (typOwork) {
                                     return <option
-                                        key={user}
-                                        value={user}>{user}
+                                        key={typOwork}
+                                        value={typOwork}>{typOwork}
                                     </option>;
                                 })
                             }

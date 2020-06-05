@@ -6,7 +6,7 @@ const projectSchema = new Schema({
     username: { type: String, required: true},
     image: { type: String, required: true},
     title: { type: String, required: true},
-    type: { type: String, required: true},
+    typeofwork: { type: String, required: true},
     weblink: { type: String, required: false},
     githublink: { type: String, required: false},
     overview: { type: String, required: true},
