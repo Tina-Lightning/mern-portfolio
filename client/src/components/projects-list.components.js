@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import axios from "axios";
 
 import Project from "./project.component";
@@ -54,6 +53,7 @@ export default class ProjectsList extends Component {
                            <th>Overview</th>
                            <th>Technology Used</th>
                            <th>Created Date</th>
+                           <th>Actions</th>
                        </tr>
                    </thead>
                    <tbody>
