@@ -1,0 +1,11 @@
+  /* FOOTER STYLES */
+
+  .footer {
+    background-color: #656767;
+  }
+  .footer-text {
+    color: white;
+    text-align: center;
+    font-size: 85%;
+    margin: 7px 0 10px 0;
+  }

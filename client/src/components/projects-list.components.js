@@ -46,7 +46,8 @@ export default class ProjectsList extends Component {
                    <thead className="thead-light">
                        <tr>
                            <th>Title</th>
-                           <th>Image</th>
+                           <th>Images</th>
+                           <th>Square Image</th>
                            <th>Type</th>
                            <th>Link to Webpage</th>
                            <th>Link to Github</th>

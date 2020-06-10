@@ -1,0 +1,567 @@
+[
+    {
+        "title": "Beer Caddy",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/BeerAngle_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/BeerTop_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/BeerFront_fullsize.jpg"
+        ],
+        "squareImg": "v/assets/images/squares/beer-caddy-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "Page-6-Pack: carrier covered in celebrity beer gossip and news. Celebrity gossip shouldn’t be limited to humans, and this beer carrier features tabloid scandals occurring in the dramatic world of beer.",
+        "techused": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Digitally printed on fabric, and hand-sewn"
+        ],
+        "createddate": "February 2011"
+    },
+    {
+        "title": "KDC Careers",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/KDC-Careers-Survey.png",
+            "http://chrissyatherholtportfolio.com/assets/images/KDC-Careers-Jobs.png",
+            "http://chrissyatherholtportfolio.com/assets/images/KDC-Careers-Home.png"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/kdc-careers-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://gentle-taiga-49524.herokuapp.com/",
+        "githublink": "https://github.com/hollywoodchase/careersurvey",
+        "overview": "KDC is an app aimed at teens and young adults to help them learn about possible career opportunities. Users can take a survey to find jobs uniquely suited to them, and then save their favorites for later.",
+        "techused": [
+            "React.js",
+            "MongoDB/Mongoose",
+            "Passport.js",
+            "Javascript",
+            "HTML5",
+            "Bootstrap CSS",
+            "Google Fonts"
+        ],
+        "createddate": "January 2020"
+    },
+    {
+        "title": "Clark Cooper",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/ClarkCooper-Logo.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/ClarkCooper-Home.png",
+            "http://chrissyatherholtportfolio.com/assets/images/ClarkCooper-Navy.png",
+            "http://chrissyatherholtportfolio.com/assets/images/ClarkCooper-Industries.png",
+            "http://chrissyatherholtportfolio.com/assets/images/ClarkCooper-EH30.png",
+            "http://chrissyatherholtportfolio.com/assets/images/ClarkCooper-Diagram.png",
+            "http://chrissyatherholtportfolio.com/assets/images/ClarkCooper-Catalogs.png"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/clark-cooper-square.jpg",
+        "typeofwork": [
+            "Professional",
+            "Web"
+        ],
+        "weblink": "https://clarkcooper.com/",
+        "githublink": "",
+        "overview": "Completely redesigned the company’s website, which included a full company re-branding with new style guides, logos, and sales materials. The new website was designed around user interaction flow in order to help customers better understand solenoid valves and the industries in which they are used.",
+        "techused": [
+            "HTML5",
+            "CSS",
+            "jQuery",
+            "Google AdWords and Analytics",
+            "Adobe InDesign",
+            "Adobe Illustrator",
+            "Adobe Photoshop"
+        ],
+        "createddate": "July 2013 – June 2014"
+    },
+    {
+        "title": "Crystal Collector Game",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Crystal-Collector-Game.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/crystals-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://tina-lightning.github.io/unit-4-game/",
+        "githublink": "https://github.com/Tina-Lightning/unit-4-game",
+        "overview": "How to Play: There are four crystals displayed on the page. The player is shown a goal number at the start of the game. When the player clicks on a crystal, it adds a randomly generated but specific number to the player’s total score. Each time the player clicks a crystal, that amount is added to the total score. The player wins when their total score matches the goal number. The player loses if they go over the goal number. Each time the player wins or loses, their win or loss count increases respectively. Also each time the player wins or loses, the game resets with a new goal number as well as different value crystals. Also, the total score is reset to 0.",
+        "techused": [
+            "HTML5",
+            "CSS",
+            "JavaScript",
+            "jQuery"
+        ],
+        "createddate": "September 2019"
+    },
+    {
+        "title": "Know Your Rights",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/KYR_front_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/KYR_cover_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/KYR_inside_fullsize.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/KYR-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "Know Your Rights is three day symposium held at the National Constitution Center about the First Amendment of the Bill of Rights. The three day conference focuses on freedom of speech and the opposition of censorship in music, movies, and books – a day for each. This printed publication is given to each attendee and has additional information including a booklet, CD, DVD, and schedules of the conference.",
+        "techused": [
+            "Adobe Photoshop",
+            "Adobe InDesign"
+        ],
+        "createddate": "December 2010"
+    },
+    {
+        "title": "TinaCast Music - Redesign",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-Header_email.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-Site1.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-Site2.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-Site3.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-Site4.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-Site5.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-chain-reaction.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-pharrell-ful.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-BestPop2014.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TinaCast-Playlist_summer2014.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/TCM-redesign-square.jpg",
+        "typeofwork": [
+            "Web",
+            "Personal",
+            "Graphic"
+        ],
+        "weblink": "http://tinacastmusic.com/",
+        "githublink": "",
+        "overview": "After a few years of the previous design, I decided to revamp the look of TinaCastMusic.com. Site was created by hand-coding a custom WordPress theme in PHP. Redesigned a logo, identity, and branding to keep with the weather theme of the “new music forecast” but with a more mature look. Created custom graphics to publicize the site. Wrote new blog posts weekly and monthly recaps for six years. Sent out monthly email campaigns to update followers on new content.",
+        "techused": [
+            "PHP",
+            "Adobe Dreamweaver",
+            "Copywriting",
+            "Constant Contact",
+            "Adobe Photoshop"
+        ],
+        "createddate": "Lifespan: February 2008 – April 2015, Redesign: February 2013"
+    },
+    {
+        "title": "Elemental Type Poster",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Elemental_type_fullsize.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/elemental-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "Poster illustrating a property of the element Titanium, which gives skywriters their ability to make legible clouds.",
+        "techused": [
+            "Photograph of a diorama",
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+        ],
+        "createddate": "October 2009"
+    },
+    {
+        "title": "Funny Ladies Gif Generator",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Gif-Generator.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/funny-ladies-gif.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://tina-lightning.github.io/Giphy-Project/",
+        "githublink": "https://github.com/Tina-Lightning/Giphy-Project",
+        "overview": "This project takes an array of topics, in this case, comedic actresses and outputs them as buttons. When the user clicks on a button, the page grabs 10 static, non-animated gifs images from the GIPHY API and places them on the page. When the user clicks one of the still GIPHY images, the gif animates. If the user clicks the gif again, it stops playing. The rating of the gif is dsipalyed under every gif. There is also a form that takes a value from a user input box and adds it to your topics array, and adds it as a button to the page.",
+        "techused": [
+            "HTML5",
+            "Bootstrap",
+            "JavaScript",
+            "jQuery",
+            "Giphy API",
+            "AJAX"
+        ],
+        "createddate": "October 2019"
+    },
+    {
+        "title": "Regal Wine Imports",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-NYC10Yr-Logo.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Einstok-Poster.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Champagne-Flyer.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Empire-Poster.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-KyleMacLachlan-Tasting.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Mispillion-Poster.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-PinkParty2016-Invite.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-PinkParty2018-Invite.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Portfolio2015-Invite.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Portfolio2016-Invite.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Portfolio2017-Invite.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Roussillon-Seminar.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-ShelfTalker1.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-ShelfTalker2.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-ShelfTalker3.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-SouthernTier-Poster.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Regal-Wine-Menu.png"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/regal-square4.jpg",
+        "typeofwork": [
+            "Professional",
+            "Graphic"
+        ],
+        "weblink": "https://www.regalwine.com/",
+        "githublink": "",
+        "overview": "Designed and produced all marketing materials including: shelf talkers, case cards, menus, posters, portfolio books, invitations, postcards and presentations. Managed complete website redesign from concept to completion. The new website is beautiful, easy-to-use, organizes thousands of wines in a database and communicates the warmth of Regal Wine employees and suppliers. Worked closely with the sales team of 30+ to keep the design assets of over 1,200 wines and beers organized and delivered to the right places in order to drive sales.",
+        "techused": [
+            "Adobe InDesign",
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "Adobe Acrobat Pro",
+            "Microsoft Office Suite including Excel"
+        ],
+        "createddate": "June 2014 – Present"
+    },
+    {
+        "title": "Train Scheduler",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Train-Schedules.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/train-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://tina-lightning.github.io/FirebaseAssignment/",
+        "githublink": "",
+        "overview": "https://github.com/Tina-Lightning/FirebaseAssignment",
+        "techused": [
+            "FireBase",
+            "Moment.js",
+            "jQuery",
+            "JavaScript",
+            "HTML",
+            "Bootstrap",
+            "CSS",
+            "Font Awesome"
+        ],
+        "createddate": "October 2019"
+    },
+    {
+        "title": "Your Plans Tonight",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/your-plans-tonight.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/your-plans-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://hollywoodchase.github.io/best-group2/",
+        "githublink": "https://github.com/hollywoodchase/best-group2",
+        "overview": "For everyone who wasn't sure what to do - this web app pulls info from the Open Weather App, Yelp and Eventbrite to find the perfect plan for your evening.",
+        "techused": [
+            "HTML5",
+            "Bootstrap",
+            "JavaScript",
+            "Open Weather Map API",
+            "Yelp API",
+            "EventBrite API"
+        ],
+        "createddate": "October 2019"
+    },
+    {
+        "title": "Nutrition Poster",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Nutrition-Poster.png",
+            "http://chrissyatherholtportfolio.com/assets/images/Nutrtion-Bag.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/Nutrition-InSitu.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/nutrition-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "Poster campaign for the American Dietetic Association about the importance of whole grains as part of an everyday diet.",
+        "techused": [
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+        ],
+        "createddate": "September 2010"
+    },
+    {
+        "title": "Print Campaign",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Screen-Print1.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/Screen-Print3.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/Screen-Print2.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/print-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "These posters are intended to challenge your perception of pop-culture personalities. Each pairs a dark truth about a beloved icon with an admirable fact about a contemporary hip-hop artist. The idea being to “never judge a book by its cover. (A lot has changed in pop culture since then 😐)",
+        "techused": [
+            "Screen printed"
+        ],
+        "createddate": "April 2011"
+    },
+    {
+        "title": "Party Time",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Board-Pieces2.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Game1.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Game2.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Game3.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Game4.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Game5.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Game6.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Board-Evolution.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Board-Pieces1.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-MeNMyBox.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/PartyTime-Pieces.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/party-time-square.jpg",
+        "typeofwork": [
+            "Personal",
+            "Graphic"
+        ],
+        "weblink": "http://partytimegame.com/",
+        "githublink": "",
+        "overview": "Invented and designed a board game (Party Time) and created prototypes until a finalized design was reached. Created graphics for the outside of the box that quickly convey the fun experience of playing Party Time. Hand-coded the website, and ran a successful social media marketing campaign. Created an informational video to promote the game using stop-motion animation. In February 2016, I launched a successful Kickstarter campaign that raised over $12,000 for the manufacturing and distribution of Party Time games.",
+        "techused": [
+            "HTML5, CSS3, jQuery, Bootstrap",
+            "Facebook, Twitter, Instagram",
+            "Adobe InDesign",
+            "Adobe Illustrator",
+            "Adobe Photoshop"
+        ],
+        "createddate": "February 2015 – Present"
+    },
+    {
+        "title": "Shift Gears",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/SG-logo-green.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/SG-logo-white.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/SG_cover_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/SG_inside_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/SG_map_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/SG_map_front_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/SG_map_back_fullsize.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/SG-logo-green.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "Shift Gears is a sustainable service station specializing in manufacturing custom bicycles for commuting. The branding was inspired by the company’s Philadelphia location, its focus on sustainability, and the idea of “shifting” away from our dependence on cars. The design of the stationery was based on this philosophy, and the map of Philadelphia highlights the roads with bike lanes to help people commuting by bike.",
+        "techused": [
+            "Adobe Illustrator"
+        ],
+        "createddate": "Spring 2010"
+    },
+    {
+        "title": "Psychedelic Timeline",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Timeline_fullsize.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/timeline-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "This timeline compares the rise in popularity of the Beatles with the psychedelic art movement. Both occurred in the 1960s, and had similar anti-establishment inspirations.",
+        "techused": [
+            "Adobe Illustrator"
+        ],
+        "createddate": "December 2009"
+    },
+    {
+        "title": "TinaCast Music - Original",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/TC_TinaCastLogo2.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_identities.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_newmusic.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_about.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_contact.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_extras2.png",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_folder_front_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_folder_inside_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_folder_back_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_Ad1_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_Ad2_fullsize.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_GroovesharkAdInSitu_fullsize_shaded.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_HorizontalAdInSitu_fullsize_shaded.jpg",
+            "http://chrissyatherholtportfolio.com/assets/images/TC_VerticalAdInSitu_fullsize_shade.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/tinacast-original-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "TinaCast Music is a self-authored new music blog that focuses on hip-hop, dance, and pop music. The logo and branding was designed around the idea that TinaCast “forecasts” music hits, similarly to meteorology. The stationery and website were designed with this idea in mind. The advertisements (both for web and print) focus on the idea that not only will people love TinaCast Music, but your iPod will too.",
+        "techused": [
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "Adobe Flash",
+            "HTML",
+            "CSS"
+        ],
+        "createddate": "Spring 2011"
+    },
+    {
+        "title": "Friend Finder",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Friend-Finder1.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/friend-finder-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://tranquil-atoll-93948.herokuapp.com/",
+        "githublink": "https://github.com/Tina-Lightning/FriendFinder",
+        "overview": "Take an online quiz and find out what other online friend you are most compatible with!",
+        "techused": [
+            "JavaScript",
+            "jQuery",
+            "node.js",
+            "Express.js",
+            "HTML",
+            "Bootstrap"
+        ],
+        "createddate": "November 2019"
+    },
+    {
+        "title": "Trivia Game",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Trivia-Game.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/trivia-game-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://tina-lightning.github.io/TriviaGame/",
+        "githublink": "https://github.com/Tina-Lightning/TriviaGame",
+        "overview": "Test your Real Housewives knowledge in this Trivia Game with countdown timers and created with jQuery. This front-end application the uses HTML5, CSS, JavaScript and jQuery.",
+        "techused": [
+            "HTML5",
+            "CSS",
+            "JavaScript",
+            "jQuery"
+        ],
+        "createddate": "September 2019"
+    },
+    {
+        "title": "I Heart TV",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/I-Heart-TV.png"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/i-love-tv-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://intense-atoll-82851.herokuapp.com/",
+        "githublink": "https://github.com/Tina-Lightning/Mongo-Scraper",
+        "overview": "This app allows users to scrape Vulture.com for articles about the latest TV news. Users can make notes on any of the articles, as well as save their favorite articles to MongoDB for another time.",
+        "techused": [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "npm packages:",
+            "- morgan",
+            "- express",
+            "- mongoose",
+            "- cheerio",
+            "- axios",
+            "- path"
+        ],
+        "createddate": "December 2019"
+    },
+    {
+        "title": "Word Guess Game",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Word-Guess-Game.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/word-guess-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://tina-lightning.github.io/Word-Guess-Game/",
+        "githublink": "https://github.com/Tina-Lightning/Word-Guess-Game",
+        "overview": "This is a Lucky Charms themed Word Guessing Game. The app runs in the browser, and features dynamically updated HTML and CSS powered by your JavaScript code.",
+        "techused": [
+            "JavaScript",
+            "HTML",
+            "Bootstrap",
+            "CSS",
+            "GoogleFonts"
+        ],
+        "createddate": "October 2019"
+    },
+    {
+        "title": "Burger Factory: The Sequel",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/BurgerFactoryTheSequel.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/burger-sequel-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Web"
+        ],
+        "weblink": "https://agile-cove-26358.herokuapp.com/",
+        "githublink": "https://github.com/Tina-Lightning/Burger-2-The-Sequel",
+        "overview": "A full stack web application using MySQL, Sequelize, Handlebars, Node and Express that allows the user to log the burgers they would like to eat.",
+        "techused": [
+            "MySQL",
+            "Sequelize",
+            "Handlebars",
+            "Node.js",
+            "Express.js"
+        ],
+        "createddate": "November 2019"
+    },
+    {
+        "title": "Circus Poster",
+        "images": [
+            "http://chrissyatherholtportfolio.com/assets/images/Circus_fullsize.jpg"
+        ],
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/circus-square.jpg",
+        "typeofwork": [
+            "Student",
+            "Graphic"
+        ],
+        "weblink": "",
+        "githublink": "",
+        "overview": "This mosaic advertises the first circus in history located in Ancient Rome.",
+        "techused": [
+            "Adobe Photoshop"
+        ],
+        "createddate": "September 2010"
+    }
+]

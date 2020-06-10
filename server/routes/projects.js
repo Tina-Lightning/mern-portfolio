@@ -10,9 +10,9 @@ router.route("/").get((req, res) => {
 
 // Add a new Project
 router.route("/add").post((req, res) => {
-    const username = req.body.username;
-    const image = req.body.image;
     const title = req.body.title;
+    const images = req.body.images;
+    const squareImg = req.body.squareImg;
     const typeofwork = req.body.typeofwork;
     const weblink = req.body.weblink;
     const githublink = req.body.githublink;
@@ -21,15 +21,15 @@ router.route("/add").post((req, res) => {
     const createddate = req.body.createddate;
 
     const newProject = new Project({
-        username,
-        image,
         title,
+        images,
+        squareImg,
         typeofwork,
         weblink,
         githublink,
         overview,
         techused,
-        createddate,
+        createddate
     });
 
     newProject.save()
@@ -52,16 +52,16 @@ router.route("/:id").delete((req, res) => {
 router.route("/update/:id").post((req, res) => {
     Project.findById(req.params.id)
         .then(project => {
-            project.username = req.body.username;
-            project.image = req.body.image;
             project.title = req.body.title;
+            project.images = req.body.images;
+            project.squareImg = req.body.squareImg;
             project.typeofwork = req.body.typeofwork;
             project.weblink = req.body.weblink;
             project.githublink = req.body.githublink;
             project.overview = req.body.overview;
             project.techused = req.body.techused;
             project.createddate = req.body.createddate;
-
+            
             project.save()
                 .then(() => res.json("Project updated"))
                 .catch(err => res.status(400).json("Error: " + err));

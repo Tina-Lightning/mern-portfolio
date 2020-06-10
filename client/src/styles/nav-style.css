@@ -1,0 +1,40 @@
+  /* NAV STYLES */
+
+  .header1 {
+    margin: 40px auto 10px auto;
+    display: flex;
+  }
+  .logo {
+    margin: auto;
+  }
+  .header1 img {
+    width: 300px;
+    height: auto;
+  }
+  .header2 {
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content:center; 
+  }
+  .sm-icons {
+    font-size: 150%;
+    margin-left:5px;
+  }
+  .sm-icons a {
+  color: #9B2832;
+  margin: 5px;
+  }
+  .sm-icons a:hover {
+    color: #656767;
+  }
+  #myBtnContainer {
+    display: flex;
+    justify-content:center; 
+  }
+  button {
+    margin: 0 5px;
+  }
+  .btn {
+    font-size: 50%;
+    text-transform: uppercase;
+  }
