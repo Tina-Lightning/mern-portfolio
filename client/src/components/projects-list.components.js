@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 
 import "../styles/portfolio-images.css"
+import { Link } from "react-router-dom";
 
 export default class ProjectsList extends Component {
     constructor(props) {
@@ -27,9 +28,11 @@ export default class ProjectsList extends Component {
             <div className="row portfolio-work-container">
                 {this.state.projects.map((currentProject) => (
                     <div className="column example-work-container" key={currentProject._id}>
-                        <img alt="portfolio-square" src={currentProject.squareImg} style={{width:"100%"}} />
+                        <Link className="content" to={"/projects/" + currentProject._id}>
+                            <img alt="portfolio-square" src={currentProject.squareImg} style={{ width: "100%" }} />
                             <div className="title-text">{currentProject.title}</div>
-                </div>
+                        </Link>
+                    </div>
                 ))}
             </div>
 

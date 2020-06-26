@@ -9,6 +9,7 @@ import ProjectsList from "./components/projects-list.components";
 import EditProject from "./components/edit-project.component";
 import CreateProject from "./components/create-project.component";
 import CreateUser from "./components/create-user.component";
+import OneProject from "./components/project.component";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <br />
         <Route path="/" exact component={ProjectsList} />
         <Route path="/edit/:id" component={EditProject} />
+        <Route path="/projects/:id" component={OneProject} />
         <Route path="/create" exact component={CreateProject} />
         <Route path="/user" exact component={CreateUser} />
         <br />
