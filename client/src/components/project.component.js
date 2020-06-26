@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
 
+import Carousel from 'react-bootstrap/Carousel'
+
 import "../styles/individual-project.css"
-import { Link } from "react-router-dom";
 
 export default class OneProject extends Component {
     constructor(props) {
@@ -51,31 +52,43 @@ export default class OneProject extends Component {
         //console.log(response);
     }
 
-    render() {
+    renderWorkTypes = () => {
         return (
             <div>
-                <div className="container">
+                {this.state.typeofwork.map(function (item, index) {
+                    return <span key={index}>{(index ? ', ' : '') + item}</span>;
+                })}
 
-                    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img className="d-block portfolio-img" src="./assets/images/ClarkCooper-Logo.jpg" alt="Slide" />
-                            </div>
-                            <div className="carousel-item active">
-                                <img className="d-block portfolio-img" src="./assets/images/ClarkCooper-Logo.jpg" alt="Slide" />
-                            </div>
-                        </div>
-                        <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Previous</span>
-                        </a>
-                        <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Next</span>
-                        </a>
-                    </div>
+            </div>
+        )
+    }
 
-                </div>
+    renderDesignedUsing = () => {
+        return (
+            <div>
+                {this.state.techused.map((info, i) => (
+                    <li key={i}>{info}</li>
+                ))}
+            </div>
+        )
+    }
+
+    render() {
+
+        return (
+            <div>
+
+                <Carousel>
+                    {this.state.images.map((img, i) => (
+                        <Carousel.Item>
+                            <img
+                                className="d-block portfolio-img"
+                                src={img}
+                                alt="Slide"
+                            />
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
 
                 <div className="container project-description-box">
                     <div className="row">
@@ -83,16 +96,26 @@ export default class OneProject extends Component {
                         <div className="col-sm-8">
                             <h1>{this.state.title}</h1>
 
-                            {this.state.typeofwork.map((worktype, index) => (
-        <p>Type of work: {worktype.text}</p>
-    ))}
+                            <h4>{this.renderWorkTypes()}</h4>
 
-                            <h4>{this.state.typeofwork[0]}</h4>
-                            <p className="weblink"><a target="_blank" rel="noopener noreferrer" href={this.state.weblink}>Visit the website</a></p>
+                            <p className="weblink">
+
+                                {this.state.weblink.length > 0 &&
+                                    <a target="_blank" rel="noopener noreferrer" href={this.state.weblink}>Visit the website </a>}
+
+                                {this.state.githublink.length > 0 && <a target="_blank" rel="noopener noreferrer" href={this.state.githublink}>| GitHub Code Link</a>}
+
+                            </p>
+
                             <p className="project-info">{this.state.overview}</p>
+
                             <p className="project-tech">
-                                <strong>Designed Using:</strong><br />
-                                {this.state.techused[0]}</p>
+                                <strong>Designed Using:</strong>
+                                <ul>
+                                    {this.renderDesignedUsing()}
+                                </ul>
+                            </p>
+
                             <p className="project-date">{this.state.createddate}</p>
                         </div>
 

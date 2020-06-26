@@ -1,0 +1,53 @@
+.portfolio-img {
+    height: 400px;
+  }
+  .carousel-inner > .carousel-item > img {
+    margin: 0 auto;
+  }
+  .project-description-box {
+    margin-bottom: 100px;
+    margin-top: 20px;
+  }
+  .project-description-box h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+  }
+  .project-description-box h4 {
+    /* font-style: italic; */
+    text-align: center;
+    font-size: 125%;
+    margin-top: 10px;
+    color:#A9A9A9;
+  }
+  .project-description-box h3 {
+    font-weight: bold;
+    font-size: 125%;
+    margin-top: 10px;
+  }
+  .project-description-box .project-info {
+    margin-top: 20px;
+  }
+  .project-description-box .project-date {
+    font-style: italic;
+    color:#A9A9A9;
+  }
+  .weblink {
+    text-align: center;
+  }
+  .weblink a {
+    text-align: center;
+    color: #9B2832;
+  }
+  h4 {
+    margin: 20px 0;
+  }
+  h1 {
+    margin: 0 0 20px 0;
+  }
+  .website-link {
+    margin-right: 10px;
+  }
+  .github-link {
+    margin-left: 10px;
+  }
