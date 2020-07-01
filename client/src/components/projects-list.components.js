@@ -5,7 +5,7 @@ import "../styles/portfolio-images.css"
 
 import { Link } from "react-router-dom";
 
-import {Tabs, Tab} from 'react-bootstrap'
+import { Tabs, Tab } from 'react-bootstrap'
 
 export default class ProjectsList extends Component {
     constructor(props) {
@@ -40,22 +40,28 @@ export default class ProjectsList extends Component {
     }
 
     ControlledTabs = () => {
-      
+
         return (
             <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
-            <Tab eventKey="home" title="Home">
-              <p>home</p>
-            </Tab>
-            <Tab eventKey="profile" title="Profile">
-            <p>profile</p>
-            </Tab>
-            <Tab eventKey="contact" title="Contact">
-            <p>contact</p>
-            </Tab>
-          </Tabs>
+                <Tab eventKey="home" title="Home">
+                    <p>home</p>
+                </Tab>
+                <Tab eventKey="web" title="Web">
+                    <p>web</p>
+                </Tab>
+                <Tab eventKey="contact" title="Contact">
+                    <p>contact</p>
+                </Tab>
+            </Tabs>
         );
-      }
-      
+    }
+
+    renderFilteredProjects = () => {
+
+    }
+
+
+
 
     render() {
         return (
@@ -69,7 +75,8 @@ export default class ProjectsList extends Component {
                     <button className="filter-btn" type="button" data-id="personal"> Personal</button>
                 </div>
 
-                <div className="row portfolio-work-container">{this.ControlledTabs()}</div>
+                {/* <div className="row portfolio-work-container">{this.ControlledTabs()}</div> */}
+                <div>{this.renderFilteredProjects}</div>
             </div>
 
         )
