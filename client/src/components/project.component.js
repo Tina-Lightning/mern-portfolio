@@ -42,14 +42,6 @@ export default class OneProject extends Component {
                 console.log(error);
             })
 
-        // axios.get("http://localhost:5000/projects/")
-        //     .then(res => {
-        //         this.setState({ projects: res.data })
-        //     })
-        //     .catch((error) => {
-        //         console.log(error);
-        //     })
-        //console.log(response);
     }
 
     renderWorkTypes = () => {
@@ -123,8 +115,6 @@ export default class OneProject extends Component {
                     </div>
                 </div>
             </div>
-
-
         )
     }
 }
