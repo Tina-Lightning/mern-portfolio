@@ -40,24 +40,103 @@ export default class ProjectsList extends Component {
     }
 
     ControlledTabs = () => {
-
         return (
-            <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
-                <Tab eventKey="home" title="Home">
-                    <p>home</p>
+            <Tabs defaultActiveKey="all" transition={false} id="noanim-tab-example">
+                <Tab eventKey="all" title="All">
+                    {this.renderFilteredAllProjects()}
+                </Tab>
+                <Tab eventKey="graphic" title="Graphic">
+                    {this.renderFilteredGraphicsProjects()}
+                </Tab>
+                <Tab eventKey="personal" title="Personal">
+                    {this.renderFilteredPersonalProjects()}
+                </Tab>
+                <Tab eventKey="professional" title="Professional">
+                    {this.renderFilteredProfessProjects()}
+                </Tab>
+                <Tab eventKey="student" title="Student">
+                    {this.renderFilteredStudentProjects()}
                 </Tab>
                 <Tab eventKey="web" title="Web">
-                    <p>web</p>
-                </Tab>
-                <Tab eventKey="contact" title="Contact">
-                    <p>contact</p>
+                    {this.renderFilteredWebProjects()}
                 </Tab>
             </Tabs>
         );
     }
 
-    renderFilteredProjects = () => {
-
+    renderFilteredAllProjects = () => {
+        return (
+            this.state.projects.filter(project => project.workTypeAll === true).map(filteredProject => (
+                <div className="row portfolio-work-container">
+                <div className="column example-work-container" key={filteredProject._id}>
+                    <Link className="content" to={"/projects/" + filteredProject._id}>
+                        <img alt="portfolio-square" src={filteredProject.squareImg} style={{ width: "100%" }} />
+                        <div className="title-text">{filteredProject.title}</div>
+                    </Link>
+                </div>
+                </div>
+            ))
+        );
+    }
+    renderFilteredGraphicsProjects = () => {
+        return (
+            this.state.projects.filter(project => project.workTypeGraphic === true).map(filteredProject => (
+                <div className="column example-work-container" key={filteredProject._id}>
+                    <Link className="content" to={"/projects/" + filteredProject._id}>
+                        <img alt="portfolio-square" src={filteredProject.squareImg} style={{ width: "100%" }} />
+                        <div className="title-text">{filteredProject.title}</div>
+                    </Link>
+                </div>
+            ))
+        );
+    }
+    renderFilteredPersonalProjects = () => {
+        return (
+            this.state.projects.filter(project => project.workTypePersonal === true).map(filteredProject => (
+                <div className="column example-work-container" key={filteredProject._id}>
+                    <Link className="content" to={"/projects/" + filteredProject._id}>
+                        <img alt="portfolio-square" src={filteredProject.squareImg} style={{ width: "100%" }} />
+                        <div className="title-text">{filteredProject.title}</div>
+                    </Link>
+                </div>
+            ))
+        );
+    }
+    renderFilteredProfessProjects = () => {
+        return (
+            this.state.projects.filter(project => project.workTypeProfessional === true).map(filteredProject => (
+                <div className="column example-work-container" key={filteredProject._id}>
+                    <Link className="content" to={"/projects/" + filteredProject._id}>
+                        <img alt="portfolio-square" src={filteredProject.squareImg} style={{ width: "100%" }} />
+                        <div className="title-text">{filteredProject.title}</div>
+                    </Link>
+                </div>
+            ))
+        );
+    }
+    renderFilteredStudentProjects = () => {
+        return (
+            this.state.projects.filter(project => project.workTypeStudent === true).map(filteredProject => (
+                <div className="column example-work-container" key={filteredProject._id}>
+                    <Link className="content" to={"/projects/" + filteredProject._id}>
+                        <img alt="portfolio-square" src={filteredProject.squareImg} style={{ width: "100%" }} />
+                        <div className="title-text">{filteredProject.title}</div>
+                    </Link>
+                </div>
+            ))
+        );
+    }
+    renderFilteredWebProjects = () => {
+        return (
+            this.state.projects.filter(project => project.workTypeWeb === true).map(filteredProject => (
+                <div className="column example-work-container" key={filteredProject._id}>
+                    <Link className="content" to={"/projects/" + filteredProject._id}>
+                        <img alt="portfolio-square" src={filteredProject.squareImg} style={{ width: "100%" }} />
+                        <div className="title-text">{filteredProject.title}</div>
+                    </Link>
+                </div>
+            ))
+        );
     }
 
 
@@ -66,17 +145,7 @@ export default class ProjectsList extends Component {
     render() {
         return (
             <div>
-                <div id="myBtnContainer" className="btn-container">
-                    <button className="filter-btn" type="button" data-id="all">All</button>
-                    <button className="filter-btn" type="button" data-id="web"> Web</button>
-                    <button className="filter-btn" type="button" data-id="graphic"> Graphic</button>
-                    <button className="filter-btn" type="button" data-id="student"> Student</button>
-                    <button className="filter-btn" type="button" data-id="professional"> Professional</button>
-                    <button className="filter-btn" type="button" data-id="personal"> Personal</button>
-                </div>
-
-                {/* <div className="row portfolio-work-container">{this.ControlledTabs()}</div> */}
-                <div>{this.renderFilteredProjects}</div>
+                {this.ControlledTabs()}
             </div>
 
         )

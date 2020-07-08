@@ -19,6 +19,12 @@ router.route("/add").post((req, res) => {
     const overview = req.body.overview;
     const techused = req.body.techused;
     const createddate = req.body.createddate;
+    const workTypeAll = req.body.workTypeAll;
+    const workTypeStudent = req.body.workTypeStudent;
+    const workTypeGraphic = req.body.workTypeGraphic;
+    const workTypeWeb = req.body.workTypeWeb;
+    const workTypeProfessional = req.body.workTypeProfessional;
+    const workTypePersonal = req.body.workTypePersonal;
 
     const newProject = new Project({
         title,
@@ -29,7 +35,13 @@ router.route("/add").post((req, res) => {
         githublink,
         overview,
         techused,
-        createddate
+        createddate,
+        workTypeAll,
+        workTypeStudent,
+        workTypeGraphic,
+        workTypeWeb,
+        workTypeProfessional,
+        workTypePersonal
     });
 
     newProject.save()
@@ -61,6 +73,12 @@ router.route("/update/:id").post((req, res) => {
             project.overview = req.body.overview;
             project.techused = req.body.techused;
             project.createddate = req.body.createddate;
+            project.workTypeAll = req.body.workTypeAll;
+            project.workTypeStudent = req.body.workTypeStudent;
+            project.workTypeGraphic = req.body.workTypeGraphic;
+            project.workTypeWeb = req.body.workTypeWeb;
+            project.workTypeProfessional = req.body.workTypeProfessional;
+            project.workTypePersonal = req.body.workTypePersonal;
             
             project.save()
                 .then(() => res.json("Project updated"))

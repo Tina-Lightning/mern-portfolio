@@ -6,7 +6,7 @@
             "http://chrissyatherholtportfolio.com/assets/images/BeerTop_fullsize.jpg",
             "http://chrissyatherholtportfolio.com/assets/images/BeerFront_fullsize.jpg"
         ],
-        "squareImg": "v/assets/images/squares/beer-caddy-square.jpg",
+        "squareImg": "http://chrissyatherholtportfolio.com/assets/images/squares/beer-caddy-square.jpg",
         "typeofwork": [
             "Student",
             "Graphic"
@@ -19,7 +19,14 @@
             "Adobe Illustrator",
             "Digitally printed on fabric, and hand-sewn"
         ],
-        "createddate": "February 2011"
+        "createddate": "February 2011",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
+
     },
     {
         "title": "KDC Careers",
@@ -45,7 +52,13 @@
             "Bootstrap CSS",
             "Google Fonts"
         ],
-        "createddate": "January 2020"
+        "createddate": "January 2020",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Clark Cooper",
@@ -75,7 +88,13 @@
             "Adobe Illustrator",
             "Adobe Photoshop"
         ],
-        "createddate": "July 2013 – June 2014"
+        "createddate": "July 2013 – June 2014",
+        "workTypeAll" : true,
+        "workTypeStudent" : false,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : true,
+        "workTypePersonal" : false
     },
     {
         "title": "Crystal Collector Game",
@@ -96,7 +115,13 @@
             "JavaScript",
             "jQuery"
         ],
-        "createddate": "September 2019"
+        "createddate": "September 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Know Your Rights",
@@ -117,7 +142,13 @@
             "Adobe Photoshop",
             "Adobe InDesign"
         ],
-        "createddate": "December 2010"
+        "createddate": "December 2010",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "TinaCast Music - Redesign",
@@ -149,7 +180,13 @@
             "Constant Contact",
             "Adobe Photoshop"
         ],
-        "createddate": "Lifespan: February 2008 – April 2015, Redesign: February 2013"
+        "createddate": "Lifespan: February 2008 – April 2015, Redesign: February 2013",
+        "workTypeAll" : true,
+        "workTypeStudent" : false,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : true
     },
     {
         "title": "Elemental Type Poster",
@@ -169,7 +206,13 @@
             "Adobe Photoshop",
             "Adobe Illustrator"
         ],
-        "createddate": "October 2009"
+        "createddate": "October 2009",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Funny Ladies Gif Generator",
@@ -192,7 +235,13 @@
             "Giphy API",
             "AJAX"
         ],
-        "createddate": "October 2019"
+        "createddate": "October 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Regal Wine Imports",
@@ -230,7 +279,13 @@
             "Adobe Acrobat Pro",
             "Microsoft Office Suite including Excel"
         ],
-        "createddate": "June 2014 – Present"
+        "createddate": "June 2014 – Present",
+        "workTypeAll" : true,
+        "workTypeStudent" : false,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : true,
+        "workTypePersonal" : false
     },
     {
         "title": "Train Scheduler",
@@ -255,7 +310,13 @@
             "CSS",
             "Font Awesome"
         ],
-        "createddate": "October 2019"
+        "createddate": "October 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Your Plans Tonight",
@@ -278,7 +339,13 @@
             "Yelp API",
             "EventBrite API"
         ],
-        "createddate": "October 2019"
+        "createddate": "October 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Nutrition Poster",
@@ -299,7 +366,13 @@
             "Adobe Photoshop",
             "Adobe Illustrator"
         ],
-        "createddate": "September 2010"
+        "createddate": "September 2010",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Print Campaign",
@@ -319,7 +392,13 @@
         "techused": [
             "Screen printed"
         ],
-        "createddate": "April 2011"
+        "createddate": "April 2011",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Party Time",
@@ -351,7 +430,13 @@
             "Adobe Illustrator",
             "Adobe Photoshop"
         ],
-        "createddate": "February 2015 – Present"
+        "createddate": "February 2015 – Present",
+        "workTypeAll" : true,
+        "workTypeStudent" : false,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : true
     },
     {
         "title": "Shift Gears",
@@ -375,7 +460,13 @@
         "techused": [
             "Adobe Illustrator"
         ],
-        "createddate": "Spring 2010"
+        "createddate": "Spring 2010",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Psychedelic Timeline",
@@ -393,7 +484,13 @@
         "techused": [
             "Adobe Illustrator"
         ],
-        "createddate": "December 2009"
+        "createddate": "December 2009",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "TinaCast Music - Original",
@@ -428,7 +525,13 @@
             "HTML",
             "CSS"
         ],
-        "createddate": "Spring 2011"
+        "createddate": "Spring 2011",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Friend Finder",
@@ -451,7 +554,13 @@
             "HTML",
             "Bootstrap"
         ],
-        "createddate": "November 2019"
+        "createddate": "November 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Trivia Game",
@@ -472,7 +581,13 @@
             "JavaScript",
             "jQuery"
         ],
-        "createddate": "September 2019"
+        "createddate": "September 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "I Heart TV",
@@ -500,7 +615,13 @@
             "- axios",
             "- path"
         ],
-        "createddate": "December 2019"
+        "createddate": "December 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Word Guess Game",
@@ -522,7 +643,13 @@
             "CSS",
             "GoogleFonts"
         ],
-        "createddate": "October 2019"
+        "createddate": "October 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Burger Factory: The Sequel",
@@ -544,7 +671,13 @@
             "Node.js",
             "Express.js"
         ],
-        "createddate": "November 2019"
+        "createddate": "November 2019",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : false,
+        "workTypeWeb" : true,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     },
     {
         "title": "Circus Poster",
@@ -562,6 +695,12 @@
         "techused": [
             "Adobe Photoshop"
         ],
-        "createddate": "September 2010"
+        "createddate": "September 2010",
+        "workTypeAll" : true,
+        "workTypeStudent" : true,
+        "workTypeGraphic" : true,
+        "workTypeWeb" : false,
+        "workTypeProfessional" : false,
+        "workTypePersonal" : false
     }
 ]

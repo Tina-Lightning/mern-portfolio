@@ -10,7 +10,11 @@
     position: relative;
     text-align: center;
   }
-  
+
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
 
  .portfolio-work-container {
     padding: 20px 0 0 0;
