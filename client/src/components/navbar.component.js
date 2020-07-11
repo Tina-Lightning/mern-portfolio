@@ -5,7 +5,7 @@ import "../styles/nav-style.css"
 export default class Navbar extends Component {
     render() {
         return (<div>
-            <a className="header1" href="index.html">
+            <a className="header1" href="/">
                 <img className="logo" src="/img/ca-logo.png" alt="Logo" />
             </a>
 

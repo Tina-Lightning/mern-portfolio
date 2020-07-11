@@ -29,7 +29,7 @@ export default class ProjectsList extends Component {
     renderImgSquares = () => {
         return (
             this.state.projects.map((currentProject) => (
-                <div className="column example-work-container" key={currentProject._id}>
+                <div className="example-work-container" key={currentProject._id}>
                     <Link className="content" to={"/projects/" + currentProject._id}>
                         <img alt="portfolio-square" src={currentProject.squareImg} style={{ width: "100%" }} />
                         <div className="title-text">{currentProject.title}</div>
@@ -41,9 +41,9 @@ export default class ProjectsList extends Component {
 
     ControlledTabs = () => {
         return (
-            <Tabs defaultActiveKey="all" transition={false} id="noanim-tab-example">
+            <Tabs className="nav-justified" defaultActiveKey="all" transition={false} id="noanim-tab-example">
                 <Tab eventKey="all" title="All">
-                    {this.renderFilteredAllProjects()}
+                    {this.renderImgSquares()}
                 </Tab>
                 <Tab eventKey="graphic" title="Graphic">
                     {this.renderFilteredGraphicsProjects()}
@@ -144,7 +144,7 @@ export default class ProjectsList extends Component {
 
     render() {
         return (
-            <div>
+            <div >
                 {this.ControlledTabs()}
             </div>
 

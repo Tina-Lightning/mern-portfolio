@@ -5,30 +5,43 @@
     padding: 20px;
     font-family: 'Lato', sans-serif;
   }
+
+  /* .nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    display:inline; 
+     zoom:1; 
+} */
+/* 
+.nav-tabs, .nav-pills {
+    text-align:center;
+} */
   
-  .content {
+  /* .content {
     position: relative;
     text-align: center;
-  }
+  } */
 
-  .main {
+  /* .main {
     max-width: 1000px;
     margin: auto;
-  }
+  } */
 
- .portfolio-work-container {
+ /* .portfolio-work-container {
     padding: 20px 0 0 0;
-    /* display: flex; */
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 120px;
+  } */
+  .tab-pane.active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .example-work-container {
-    position: relative;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
     background-color: rgb(207, 17, 33);
     width: 200px;
     height: 200px;
@@ -41,37 +54,37 @@
   .example-work-container:hover img{
     opacity: 0.1;
   }
-  .example-work-container:hover .title-text{
+  /* .example-work-container:hover .title-text{
      display: block;
-  }
+  } */
 
 
     /* Style the buttons */
-    .btn {
+    /* .btn {
       border: none;
       outline: none;
       padding: 12px 16px;
       background-color: white;
       cursor: pointer;
-    }
+    } */
     
-    .btn:hover {
+    /* .btn:hover {
       background-color: #ddd;
-    }
-    
+    } */
+/*     
     .btn.active {
       background-color: #666;
       color: white;
-    }
-    #myBtnContainer {
+    } */
+    /* #myBtnContainer {
       display: flex;
       justify-content:center; 
-    }
-    button {
+    } */
+    /* button {
       margin: 0 5px;
-    }
-    .btn {
+    } */
+    /* .btn {
       font-size: 50%;
       text-transform: uppercase;
-    }
+    } */
   
