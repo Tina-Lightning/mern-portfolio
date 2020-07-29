@@ -6,7 +6,7 @@ export default class Navbar extends Component {
     render() {
         return (<div>
             <a className="header1" href="/">
-                <img className="logo" src="/img/ca-logo.png" alt="Logo" />
+                <img className="logo" src="/img/ca-logo.png" alt="Chrissy Logo" />
             </a>
 
             <nav className="header2 sm-icons">
